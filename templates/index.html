@@ -1,0 +1,19 @@
+<h1>Welcome!</h1>
+<form  method="post">
+
+  {{form.hidden_tag()}}
+  {{form.name.label}}{{form.name}}
+  <br>
+  {{form.wellness.label}}{{form.wellness}}
+  <br>
+  {{form.gender.label}}{{form.gender}}
+  <br>
+  {{form.food_choice.label}}{{form.food_choice}}
+  <br>
+  Bio:
+  <br>
+  {{form.bio}}
+  <br>
+  {{form.submit()}}
+
+</form>
